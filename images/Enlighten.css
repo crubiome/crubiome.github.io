@@ -24,8 +24,8 @@ body {
 }
 
 /* links */
-a { background: inherit; color: #993333; text-decoration: none; }
-a:hover { background: inherit; color: #006699; text-decoration: underline; }
+a { background: inherit; color: #006699; text-decoration: none; }
+a:hover { background: inherit; color:blue ; text-decoration: underline; }
 
 /* headers */
 h1, h2, h3 {
@@ -42,7 +42,7 @@ p, h1, h2, h3 {
 ul, ol {
 	margin: 10px 30px;
 	padding: 0 15px;	
-	color: #993333;	
+	color: #006699;	
 }
 ul span, ol span {
 	color: #333;
@@ -166,11 +166,11 @@ input.button {
 }
 #header .headerphoto {
 	position: absolute;
-	right: 15px ; top: 15px;
-#	width: 455px;
+	right: 25px ; top: 15px;
+ #	width: 755px;
 #	width: 255px;
 	height: 156px;
-#	background: #FFF url(headerphoto.jpg) no-repeat;	
+#	background: #FFF url(headerphoto2.jpg) no-repeat;	
 }
 #header #logo-box {
 	position: absolute;
@@ -178,8 +178,8 @@ input.button {
 #	width: 280px;
 	width: 600px;
 	height: 156px;	
-	background: #4E3525;
-#	background: #cecdcd;
+#	background: #4E3525;
+	background: #cecdcd;
 #	background: #818181;
 }
 #logo-box #logo {
@@ -187,7 +187,7 @@ input.button {
 	font: bold 30px 'Trebuchet MS', Sans-serif;
 	letter-spacing: -2px; 
 	color: #FFF;
-	margin: 0; padding: 0;
+    margin: 0; padding: 0;
 	
 	/* change the values of left and top to adjust the position of the logo */
 	top: 25px; left: 34px;
@@ -196,7 +196,8 @@ input.button {
 	position: absolute;	
 	font: bold 30px 'Trebuchet MS', Sans-serif;
 	letter-spacing: -2px; 
-	color: #FFF;
+#	color: #FFF;
+    color: #333;
 	margin: 0; padding: 0;
 	
 	/* change the values of left and top to adjust the position of the logo */
@@ -206,11 +207,13 @@ input.button {
 	position: absolute;	
 	font: bold 12px 'Trebuchet Ms', Sans-serif;
 	text-transform: none;
-	color: #FFFFCC;	
+	#color: #FFFFCC;
+    color: #006699; 
+    
 	margin: 0; padding: 0;
 	
 	/* change the values of left and top to adjust the position of the slogan */
-	top: 88px; left: 60px;
+	top: 100px; left: 34px;
 }
 
 /* header menu */
@@ -247,12 +250,12 @@ input.button {
 	
 }
 #menu li a:hover {
-	background: #CC9966;
+	background: #006699;
 #	background: #BFBFBF;
 	color: #FFF;
 }
 #menu li a#current  {
-	background: #993333;
+	background: #006699;
 	color: #FFF;
 	
 }
@@ -280,7 +283,8 @@ input.button {
 #sidebar h1 {
 	padding: 10px 0px 5px 10px;
 	margin: 0;	
-	color: #660000;	
+	#color: #006699;
+    color: #333;
 }
 .sidebox {
 	margin-bottom: 10px;	
@@ -310,8 +314,10 @@ input.button {
 }
 #sidebar ul.sidemenu a:hover {
 	padding: .3em 0 .3em 10px;
-	border-left: 5px solid  #993333;
-	color: #993333;		
+	#border-left: 5px solid  #993333;
+	#color: #993333;
+    border-left: 5px solid  #006699;
+	color: #006699;
 }
 
 /* main */
