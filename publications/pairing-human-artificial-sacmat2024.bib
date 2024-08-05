@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3649158.3657032,
+author = {Rubio-Medrano, Carlos E. and Kotak, Akash and Wang, Wenlu and Sohr, Karsten},
+title = {Pairing Human and Artificial Intelligence: Enforcing Access Control Policies with LLMs and Formal Specifications},
+year = {2024},
+isbn = {9798400704918},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3649158.3657032},
+doi = {10.1145/3649158.3657032},
+abstract = {Large Language Models (LLMs), such as ChatGPT and Google Bard, have performed interestingly well when assisting developers on computer programming tasks, a.k.a., coding, thus potentially resulting in convenient and faster software constructions. This new approach significantly enhances efficiency but also presents challenges in unsupervised code construction with limited security guarantees. LLMs excel in producing code with accurate grammar, yet they are not specifically trained to guarantee the security of the code. In this paper, we provide an initial exploration into using formal software specifications as a starting point for software construction, allowing developers to translate descriptions of security-related behavior into natural language instructions for LLMs, a.k.a., prompts. In addition, we leveraged automated verification tools to evaluate the code produced against the aforementioned specifications , following a modular, step-by-step software construction process. For our study, we leveraged Role-based Access Control (RBAC), a mature security model, and the Java Modeling Language (JML), a behavioral specification language for Java. We test our approach on different publicly-available LLMs, namely, OpenAI ChatGPT 4.0, Google Bard, and Microsoft CoPilot. We provide a description of two applications-a security-sensitive Banking application employing RBAC and an RBAC API module itself-, the corresponding JML specifications, as well as a description of the prompts, the generated code, the verification results, as well as a series of interesting insights for practitioners interested in further exploring the use of LLMs for securely constructing applications.},
+booktitle = {Proceedings of the 29th ACM Symposium on Access Control Models and Technologies},
+pages = {105–116},
+numpages = {12},
+keywords = {chatgpt, formal specifications, large language models, prompt engineering, software construction. java modeling language},
+location = {San Antonio, TX, USA},
+series = {SACMAT 2024}
+}
